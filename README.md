@@ -5,6 +5,7 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-purple?style=for-the-badge)](https://vermillion-sprinkles-7cb1b7.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge)](https://github.com/aryan1112003)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/aryan-acharya-9b939b316/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 ![App Screenshot](https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=2070)
 
@@ -66,7 +67,7 @@ AI Meeting Summary Generator is a cutting-edge web application that revolutioniz
 ## 🚀 Technical Stack
 
 ### Frontend Architecture
-```
+\`\`\`
 React + TypeScript
 ├── Component Architecture
 │   ├── Functional Components
@@ -75,15 +76,15 @@ React + TypeScript
 │   └── React Hooks
 └── Type Safety
     └── TypeScript
-```
+\`\`\`
 
 ### Styling Framework
-```
+\`\`\`
 Tailwind CSS
 ├── Custom Theme
 ├── Responsive Design
 └── Dark Mode
-```
+\`\`\`
 
 ### Core Technologies
 - **UI Framework**: React 18.3
@@ -102,28 +103,28 @@ Tailwind CSS
 ### Installation Steps
 
 1. **Clone the Repository**
-   ```bash
+   \`\`\`bash
    git clone https://github.com/aryan1112003/ai-meeting-summary
    cd ai-meeting-summary
-   ```
+   \`\`\`
 
 2. **Install Dependencies**
-   ```bash
+   \`\`\`bash
    npm install
-   ```
+   \`\`\`
 
 3. **Start Development Server**
-   ```bash
+   \`\`\`bash
    npm run dev
-   ```
+   \`\`\`
 
 4. **Build for Production**
-   ```bash
+   \`\`\`bash
    npm run build
-   ```
+   \`\`\`
 
 ### Project Structure
-```
+\`\`\`
 ai-meeting-summary/
 ├── src/
 │   ├── components/     # React components
@@ -132,7 +133,7 @@ ai-meeting-summary/
 │   └── styles/        # CSS and styling
 ├── public/            # Static assets
 └── dist/             # Build output
-```
+\`\`\`
 
 ## 🎯 Usage Guide
 
@@ -185,7 +186,16 @@ We welcome contributions! Here's how you can help:
 
 ## 📄 License & Attribution
 
-© 2024 Aryan Acharya. All rights reserved.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive license that allows you to:
+- ✅ Use the code commercially
+- ✅ Modify the code
+- ✅ Distribute the code
+- ✅ Use the code privately
+- ✅ Sublicense the code
+
+The only requirement is that you include the same copyright notice in all copies or substantial portions of the software.
 
 ### Credits
 - AI Technology: Google Gemini Pro
