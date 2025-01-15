@@ -1,244 +1,191 @@
-<div align="center">
+```markdown
+# 🎙️ AI Meeting Summary Generator  
 
-# 🎙️ AI Meeting Summary Generator
+<div align="center">  
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-purple?style=for-the-badge)](https://vermillion-sprinkles-7cb1b7.netlify.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge)](https://github.com/aryan1112003)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/aryan-acharya-9b939b316/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-purple?style=for-the-badge)](https://vermillion-sprinkles-7cb1b7.netlify.app/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge)](https://github.com/aryan1112003)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/aryan-acharya-9b939b316/)  
 
-<br />
+![App Screenshot](https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=2070)  
 
-<img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=2070" alt="App Banner" style="border-radius: 10px; max-width: 800px;" />
+*Revolutionize the way you manage and summarize meetings with the power of AI!*  
 
-<br />
-
-> *"Transform your meetings into brilliance, one summary at a time."*
-
-<br />
-
-[🚀 Live Demo](https://vermillion-sprinkles-7cb1b7.netlify.app/) • [📘 Documentation](#-usage-guide) • [🤝 Contribute](#-contributing) • [📫 Contact](#-connect--support)
-
-</div>
+</div>  
 
 ---
 
-<div align="center">
+## 🌟 **Overview**  
 
-### 🌟 The Future of Meeting Documentation is Here
+The **AI Meeting Summary Generator** is an intelligent web application designed to transform how teams document and leverage meeting insights. Powered by advanced AI (Google's Gemini Pro), it turns lengthy meeting recordings into structured, actionable summaries that help businesses stay aligned and productive.  
 
-</div>
-
-Tired of missing crucial meeting points? Struggling with messy notes? Say goodbye to post-meeting confusion! The AI Meeting Summary Generator transforms your meetings into clear, actionable insights using the power of Google's Gemini Pro AI.
-
-<div align="center">
-
-### ⚡ Why Choose AI Meeting Summary Generator?
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="33%">
-<h3>🎯 Smart Analysis</h3>
-Real-time processing with AI-powered insights
-</td>
-<td align="center" width="33%">
-<h3>⚡ Lightning Fast</h3>
-From recording to summary in seconds
-</td>
-<td align="center" width="33%">
-<h3>🎨 Beautiful Design</h3>
-Dark mode interface with modern aesthetics
-</td>
-</tr>
-</table>
+Whether it’s capturing key discussions, decisions, or action items, this tool ensures you never miss critical information from your meetings.  
 
 ---
 
-## 🎭 Features That Make Us Stand Out
+## ✨ **Key Features**  
 
-<details>
-<summary><b>🤖 AI-Powered Intelligence</b></summary>
-<br />
+### 🎯 **Intelligent Analysis**  
+- **Real-time Processing:** Upload recordings and get summaries in minutes.  
+- **Speech-to-Text Conversion:** Converts speech into accurate, actionable text.  
+- **Context-Aware Summaries:** AI understands and categorizes discussions intelligently.  
+- **Action Item Detection:** Automatically identifies tasks and assigns owners.  
+- **Key Decision Tracking:** Highlights critical decisions for easy reference.  
 
-- 🧠 Context-aware summarization
-- 📊 Smart topic categorization
-- 🎯 Automatic action item detection
-- 🔍 Key decision highlighting
-- 📈 Engagement analysis
-</details>
+### 📝 **Comprehensive Summaries**  
+1. **Meeting Overview**  
+   - Objectives and outcomes  
+   - Participant attendance  
+   - Meeting duration and timestamps  
+   - Engagement metrics to track collaboration  
 
-<details>
-<summary><b>🎨 Beautiful User Experience</b></summary>
-<br />
+2. **Discussion Insights**  
+   - Categorization of topics discussed  
+   - Extraction of key points and insights  
+   - Context preservation with relevant background details  
 
-- 🌙 Sleek dark mode interface
-- 📱 Fully responsive design
-- 🖱️ Drag-and-drop uploads
-- ⚡ Real-time processing
-- 🎯 Intuitive navigation
-</details>
+3. **Decision Management**  
+   - Comprehensive rationale for decisions  
+   - Input from key stakeholders  
+   - Assessment of potential impacts  
 
-<details>
-<summary><b>📤 Export & Share</b></summary>
-<br />
+4. **Action Management**  
+   - Task assignment and progress tracking  
+   - Deadlines with reminders  
+   - Resource allocation and dependencies  
 
-- 📑 Professional PDF exports
-- 🎨 Custom formatting options
-- 🔗 Easy sharing capabilities
-- 📊 Multiple export formats
-- 🎯 Brand customization
-</details>
+### 🎨 **User Experience**  
+- **Modern Interface:** Dark mode and responsive design for seamless usability.  
+- **Drag-and-Drop Functionality:** Simple, intuitive file uploads.  
+- **Real-Time Feedback:** Instant progress updates while processing files.  
+- **Interactive Summaries:** Expand or collapse sections for quick navigation.  
 
----
-
-## 🚀 Tech Magic Behind the Scenes
-
-<div align="center">
-
-\`\`\`mermaid
-graph LR
-    A[Audio Input] --> B[React + TypeScript]
-    B --> C[Gemini Pro AI]
-    C --> D[Smart Summary]
-    D --> E[PDF Export]
-    style A fill:#ff9900,stroke:#fff,stroke-width:2px
-    style B fill:#61dafb,stroke:#fff,stroke-width:2px
-    style C fill:#4285f4,stroke:#fff,stroke-width:2px
-    style D fill:#34a853,stroke:#fff,stroke-width:2px
-    style E fill:#ea4335,stroke:#fff,stroke-width:2px
-\`\`\`
-
-</div>
-
-### 🛠️ Built With Modern Tech
-
-- ⚛️ **React 18.3** - Latest React features
-- 🎨 **Tailwind CSS** - Beautiful styling
-- 🤖 **Gemini Pro** - AI powerhouse
-- 📑 **jsPDF** - PDF generation
-- 🎯 **TypeScript** - Type safety
+### 📤 **Export Capabilities**  
+- Generate professional PDFs with custom branding.  
+- Structured layouts for easy readability.  
+- Shareable summaries via email, download links, or collaboration tools.  
 
 ---
 
-## 🚦 Quick Start Guide
+## 🚀 **Technical Stack**  
 
-\`\`\`bash
-# Clone the magic
-git clone https://github.com/aryan1112003/ai-meeting-summary
+### 🖥️ **Frontend Architecture**  
+- **Framework:** React 18.3 + TypeScript  
+- **State Management:** React Hooks and custom hooks  
+- **Styling:** Tailwind CSS with a custom theme  
+- **Build Tool:** Vite for fast and optimized builds  
 
-# Install dependencies
-npm install
+### 💡 **Core Technologies**  
+- **AI Integration:** Powered by Google’s Gemini Pro for unparalleled accuracy.  
+- **PDF Generation:** Uses jsPDF for high-quality document exports.  
+- **Icons:** Lucide React for a clean, modern design.  
 
-# Start the engine
-npm run dev
-\`\`\`
-
----
-
-## 🎯 How It Works
-
-<div align="center">
-
-\`\`\`mermaid
-sequenceDiagram
-    participant U as User
-    participant A as App
-    participant AI as Gemini AI
-    U->>A: Upload Recording
-    A->>AI: Process Audio
-    AI->>A: Generate Summary
-    A->>U: Present Results
-\`\`\`
-
-</div>
-
-1. 📤 **Upload Your Recording**
-   - Drag & drop your file
-   - Supports MP3, WAV, MP4
-   - Up to 100MB
-
-2. ⚡ **Watch the Magic**
-   - Real-time processing
-   - Progress tracking
-   - Smart analysis
-
-3. 📋 **Get Your Summary**
-   - Structured overview
-   - Action items
-   - Key decisions
-   - Next steps
-
-4. 📥 **Export & Share**
-   - Download as PDF
-   - Share with team
-   - Custom formatting
+### 📋 **Project Structure**  
+```
+ai-meeting-summary/
+├── src/
+│   ├── components/     # Modular React components
+│   ├── lib/            # Utility and helper functions
+│   ├── types/          # TypeScript type definitions
+│   └── styles/         # Tailwind and custom CSS
+├── public/             # Static assets like images and fonts
+└── dist/               # Build output for deployment
+```  
 
 ---
 
-## 🎯 Roadmap to the Future
+## 🛠️ **Development Guide**  
 
-<div align="center">
+### **Prerequisites**  
+- Node.js (v16 or higher)  
+- npm or yarn  
+- Modern web browser  
 
-\`\`\`mermaid
-gantt
-    title Feature Timeline
-    dateFormat  YYYY-MM
-    section Features
-    Real-time Collaboration    :2024-03, 3M
-    Multi-language Support     :2024-05, 4M
-    Advanced Analytics        :2024-07, 3M
-    Platform Integration      :2024-09, 4M
-\`\`\`
+### **Setup Instructions**  
+1. **Clone the Repository:**  
+   ```bash  
+   git clone https://github.com/aryan1112003/ai-meeting-summary  
+   cd ai-meeting-summary  
+   ```  
 
-</div>
+2. **Install Dependencies:**  
+   ```bash  
+   npm install  
+   ```  
 
----
+3. **Start the Development Server:**  
+   ```bash  
+   npm run dev  
+   ```  
 
-## 📄 License & Legal Stuff
-
-This project is protected under the MIT License - see the [LICENSE](LICENSE) file for the full legal text.
-
-<table>
-<tr>
-<td>✅ Commercial Use</td>
-<td>✅ Modification</td>
-<td>✅ Distribution</td>
-</tr>
-<tr>
-<td>✅ Private Use</td>
-<td>✅ Sublicense</td>
-<td>❗ License Notice Required</td>
-</tr>
-</table>
+4. **Build for Production:**  
+   ```bash  
+   npm run build  
+   ```  
 
 ---
 
-## 🤝 Join Our Community
+## 🎯 **Usage Guide**  
 
-<div align="center">
+### 1️⃣ **Uploading Recordings**  
+- Drag-and-drop your files or use the file picker.  
+- Supported formats: MP3, WAV, MP4.  
+- Maximum file size: 100MB.  
 
-[![GitHub Stars](https://img.shields.io/github/stars/aryan1112003/ai-meeting-summary?style=social)](https://github.com/aryan1112003)
-[![Twitter Follow](https://img.shields.io/twitter/follow/aryan1112003?style=social)](https://twitter.com/aryan1112003)
+### 2️⃣ **AI Processing**  
+- Real-time progress bar for audio transcription and analysis.  
+- Fully automated background processing.  
 
-**[Report Bug](https://github.com/aryan1112003/ai-meeting-summary/issues)** • 
-**[Request Feature](https://github.com/aryan1112003/ai-meeting-summary/issues)**
+### 3️⃣ **Review Summaries**  
+- Expandable sections for detailed insights.  
+- Clear labels for objectives, decisions, and actions.  
 
-</div>
+### 4️⃣ **Export Options**  
+- Download professional, branded PDFs.  
+- Share summaries directly with your team.  
 
 ---
 
-<div align="center">
+## 🤝 **Contributing**  
 
-### 🌟 Connect & Support
+We’d love your support to make this project even better!  
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-brightgreen?style=for-the-badge)](https://vermillion-sprinkles-7cb1b7.netlify.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge)](https://github.com/aryan1112003)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/aryan-acharya-9b939b316/)
+### **How to Contribute**  
+1. **Report Bugs**: Use the issue tracker to describe the problem with clear steps and screenshots.  
+2. **Suggest Features**: Share ideas for new functionalities and enhancements.  
+3. **Submit Code:**  
+   - Fork the repository.  
+   - Create a new feature branch.  
+   - Open a pull request with detailed comments.  
 
-<br />
+---
 
-Made with ❤️ by [Aryan Acharya](https://github.com/aryan1112003)
+## 📈 **Future Roadmap**  
+- [ ] Real-time collaboration during meetings.  
+- [ ] Customizable templates for summaries.  
+- [ ] Multi-language transcription and summaries.  
+- [ ] Advanced analytics for engagement metrics.  
+- [ ] Seamless integration with popular platforms like Zoom and MS Teams.  
 
-</div>
+---
+
+## 📄 **License**  
+
+This project is licensed under the **MIT License**. See the [LICENSE](https://github.com/aryan1112003/ai-meeting-summary/blob/main/LICENSE) file for details.  
+
+---
+
+## 🔗 **Connect & Support**  
+
+- **Live Demo:** [AI Meeting Summary Generator](https://vermillion-sprinkles-7cb1b7.netlify.app/)  
+- **GitHub:** [@aryan1112003](https://github.com/aryan1112003)  
+- **LinkedIn:** [Aryan Acharya](https://www.linkedin.com/in/aryan-acharya-9b939b316/)  
+
+---  
+
+<div align="center">  
+
+**Crafted with ❤️ by Aryan Acharya**  
+
+</div>  
+```
